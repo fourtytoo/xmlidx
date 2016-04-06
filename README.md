@@ -4,7 +4,19 @@ A Clojure library designed to index XML files.
 
 ## Usage
 
-Look at the code.
+
+```clojure
+(-> "/path/to/your/file.xml"
+      file-xml-events
+      index-text-path-simple
+      unique-paths)
+```
+
+```clojure
+(-> "/path.xml"
+    file-xml-events
+    index-text-path-arrays)
+```
 
 ## License
 
