@@ -42,6 +42,3 @@
           (cons (map (fn [s n] [n (get s n)])
                      siblings path)
                 (index-text-path-arrays (rest events) path siblings))))))))
-
-(defn unique-paths [paths]
-  (frequencies paths))
