@@ -7,7 +7,7 @@ A Clojure library designed to index XML files.
 Add the dependency to your lein project.clj
 
 ```clojure
-[fourtytoo/demyjtify "0.1.0-SNAPSHOT"]
+[fourtytoo/xmlidx "0.1.0-SNAPSHOT"]
 ```
 
 Require the library in your namespace
