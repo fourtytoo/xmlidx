@@ -14,15 +14,15 @@ Require the library in your namespace
 
 ```clojure
 (ns my-program.core
-  (:require [xmlidx.core :as xmlidx]))
+  (:require [xmlidx.core :as idxml]))
 ```
 
 Index a file
 
 ```clojure
 (-> "/path/to/your/file.xml"
-     idx:file-xml-events
-     idx:index-text-path-simple
+     idxml:file-xml-events
+     idxml:index-text-path-simple
      frequencies)
 ```
 
@@ -31,8 +31,8 @@ need to index them one by one with an xpath:
 
 ```clojure
 (-> "/path/to/another/file.xml"
-    idx:file-xml-events
-    idx:index-text-path-arrays)
+    idxml:file-xml-events
+    idxml:index-text-path-arrays)
 ```
 
 ## License
