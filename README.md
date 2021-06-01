@@ -37,7 +37,7 @@ need to index them one by one with an xpath:
 
 ## License
 
-Copyright © 2016 Walter C. Pelissero <walter@pelissero.de>
+Copyright © 2016 Walter C. Pelissero
 
 Distributed under the GNU General Public License either version 2.0 or
 (at your option) any later version.
